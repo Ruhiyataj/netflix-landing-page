@@ -1,0 +1,32 @@
+{
+  "name": "netflix-clone",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "server": "node server.js",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.18.0",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0"
+  },
+  "description": "A Netflix-style movie streaming app with user registration/login using OMDB API and Aiven MySQL database.",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruhiyataj/netflix-landing-page.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ruhiyataj/netflix-landing-page/issues"
+  },
+  "homepage": "https://github.com/Ruhiyataj/netflix-landing-page#readme"
+}
